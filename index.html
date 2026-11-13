@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Movin' Artists Market — Rhode Island Promo Market</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Movin' Artists Market: Design, Film, Edit, Promote, Boost, Website for local brands, entrepreneurs and artists in Rhode Island. Call (401) 207-6789.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=JetBrains+Mono:wght@400;600&family=Roboto:wght@400;500&family=Silkscreen:wght@400;700&display=block" rel="stylesheet">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/"}}</script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+</head>
+<body id="top">
+<div id="previewbar" class="mono">PREVIEW OF THE NEW DESIGN · NOT THE LIVE HOMEPAGE · <a href="https://www.movinartistsmarket.com" target="_blank" rel="noopener">MOVINARTISTSMARKET.COM</a></div>
+<div id="loader"><img src="assets/chrome-ma-640.png" alt=""><span class="mono">TUNING SIGNAL <b id="ldp">0</b>%</span></div>
+
+<canvas id="gl"></canvas>
+<canvas id="mosaic"></canvas>
+<div id="grid" aria-hidden="true"></div>
+
+<!-- HUD / nav -->
+<header id="hud">
+  <a class="brand" href="#top"><img src="assets/chrome-ma-640.png" alt="Movin' Artists Market M/A logo"><span class="mono">MOVIN' ARTISTS<br>MARKET</span></a>
+  <nav class="pills"><a class="pill line" href="#shop">SHOP</a><a class="pill line" href="#pricing">PLANS</a><i class="rule"></i><a class="pill fill" href="#connect">CONTACT</a><a class="mini mono" href="#events">EVENTS ↗</a></nav>
+</header>
+<div id="log" class="mono" aria-hidden="true">
+  <span class="l1">FIELD LOG // MAM-26</span>
+  <span class="l2">41.8240° N &nbsp;71.4128° W</span>
+  <span class="l3">PROVIDENCE, RI</span>
+</div>
+<div id="scn" class="mono" aria-hidden="true"><span id="scnName">SCN 01 — SIGNAL</span><span id="scnPct">000</span></div>
+<div id="rail" aria-hidden="true"><i id="railFill"></i></div>
+<div class="tick tl"></div><div class="tick tr"></div><div class="tick bl"></div><div class="tick br"></div>
+
+<!-- HERO -->
+<section id="hero" class="layer" aria-label="Movin' Artists Market">
+  <h1 class="xt"><span>MOVIN'</span><span>ARTISTS</span><span>MARKET</span></h1>
+  <div class="copy mono">
+    <p class="k">EST. PROVIDENCE // A TRICKNOTIC PRODUCTIONS SIGNAL</p>
+    <p>RHODE ISLAND PROMO MARKET FOR LOCAL BRANDS, ENTREPRENEURS &amp; ARTISTS.</p>
+    <p>DESIGN. FILM. EDIT. PROMOTE. BOOST. WEBSITE. WE BUILD THE FREQUENCY YOUR BRAND BROADCASTS ON.</p>
+  </div>
+</section>
+
+<!-- CAROUSEL UI -->
+<section id="services" class="layer" aria-label="Services">
+  <p class="mono q">WHAT ARE YOU LOOKING FOR?</p>
+  <ul class="mono">
+    <li><a href="#">→ DESIGN</a></li><li><a href="#">→ FILM</a></li><li><a href="#">→ EDIT</a></li>
+    <li><a href="#">→ PROMOTE</a></li><li><a href="#">→ BOOST</a></li><li><a href="#">→ WEBSITE</a></li>
+  </ul>
+  <a class="ask mono" href="tel:+14012076789">BOOK A SIGNAL... <span>CALL (401) 207-6789</span></a>
+</section>
+<div id="cardIdx" class="mono layer" aria-hidden="true"><span id="cardNum">01</span> / 09 <em id="cardName">DESIGN</em></div>
+
+<!-- THE MARKET (mosaic text is drawn on canvas; copy for a11y) -->
+<section id="lab" class="layer" aria-label="The Market"><p class="sr">The Market: our home for local brands, where signals turn into products.</p></section>
+
+<!-- END PANEL -->
+<section id="plans" class="layer" aria-label="Plans and contact">
+  <div class="endhead"><p class="mono">TRANSMISSION 05 // PICK YOUR FREQUENCY</p><h2 class="xt">INVEST IN<br><span>YOUR GROWTH</span></h2></div>
+  <div class="tiers">
+    <article class="tier"><p class="mono">TIER 01</p><h3>SIGNAL NODE</h3><div class="price">$175<small>/MO</small></div><p>2 × 15–30s promos or ads + a highlight reel. Posted to our IG, TikTok &amp; YouTube. Paid boost to new local audiences.</p></article>
+    <article class="tier hot"><p class="mono">TIER 02</p><h3>CARRIER BOOST</h3><div class="price">$350<small>/MO</small></div><p>4 pieces of content a month, a higher paid boost, story posts across all our platforms, a highlight on movinartists.com — plus every Signal Node perk.</p></article>
+    <article class="tier"><p class="mono">TIER 03</p><h3>SHRINE ACTIVATION</h3><div class="price">$600<small>/MO</small></div><p>8 pieces of content, a shoot day or event recap monthly, custom logo intro or end card, priority placement, monthly report, highlight space on IG @movinartistsnetwork.</p></article>
+  </div>
+  <footer id="contact" class="mono"><a class="pill fill big" href="tel:+14012076789">CALL (401) 207-6789</a><a href="https://www.movinartistsmarket.com">WWW.MOVINARTISTSMARKET.COM</a><span class="runes">ᛃᛟᛁᚾ ᚢᛊ</span></footer>
+</section>
+
+<div id="spacer"></div>
+
+<!-- Reduced-motion fallback -->
+<main id="still" hidden>
+  <section class="s-hero"><img src="assets/chrome-ma-640.png" alt="Movin' Artists Market chrome M/A logo"><h1 class="xt"><span>MOVIN'</span><span>ARTISTS</span><span>MARKET</span></h1>
+    <p class="mono">RHODE ISLAND PROMO MARKET FOR LOCAL BRANDS, ENTREPRENEURS &amp; ARTISTS. DESIGN. FILM. EDIT. PROMOTE. BOOST. WEBSITE. WE BUILD THE FREQUENCY YOUR BRAND BROADCASTS ON.</p></section>
+  <section class="s-svc"><p class="mono">WHAT ARE YOU LOOKING FOR?</p><div class="s-grid"></div></section>
+  <section class="s-plans"></section>
+</main>
+
+<!--FULL-->
+<main id="full">
+<section id="about" class="fs about">
+ <p class="mono k">TRANSMISSION 06 // WHAT MOVES YOU?</p>
+ <h2 class="xt">MORE THAN A<br><span>MARKETPLACE</span></h2>
+ <div class="about-grid">
+  <p class="lede">More Than a Marketplace — A Movement for Artists.<br><b>Sell it. Perform it. Offer it. We Promote it.</b></p>
+  <div class="mono about-side"><p>At Movin’ Artists Market, we promote you while you create.</p><p>WHETHER IT'S <b>SERVICES</b>, <b>PRODUCTS</b> OR <b>CONCEPTS</b>.</p><a class="pill line" href="https://www.instagram.com/movinartistsmarket/" target="_blank" rel="noopener">MESSAGE US ON IG ↗</a></div>
+ </div>
+ <p class="runes big">ᛒᛖᚲᛟᛗᛖ ᚨ ᚲᛟᛞᛖ ᚲᚨᚱᚱᛁᛖᚱ</p>
+</section>
+<div class="marquee mono" aria-hidden="true"><div>MARKET CREATORS • PRODUCTS • MUSIC • SERVICES • COLLABORATORS • MARKET CREATORS • PRODUCTS • MUSIC • SERVICES • COLLABORATORS • MARKET CREATORS • PRODUCTS • MUSIC • SERVICES • COLLABORATORS • MARKET CREATORS • PRODUCTS • MUSIC • SERVICES • COLLABORATORS • MARKET CREATORS • PRODUCTS • MUSIC • SERVICES • COLLABORATORS • MARKET CREATORS • PRODUCTS • MUSIC • SERVICES • COLLABORATORS • </div></div>
+<section id="shop" class="fs"><header class="fh"><p class="mono k">TRANSMISSION 07 // THE MARKET STALL</p><h2 class="xt">FLYER <span>PRODUCTS</span></h2><p class=sub>Canva-editable flyer kits, template packs and design elements made by Movin' Artists Market — Rhode Island. Personal and commercial use for your own business. No resale, sharing or redistribution.</p></header>
+<div class="pgrid flyers"><article class="pcard dig feat">
+  <div class="pimg"><img src="https://static.wixstatic.com/media/f8fae8_48c721e1d1aa43ae820bdc6ddb51e8ac~mv2.png/v1/fit/w_1200,h_1200,q_85,enc_auto/x.webp" alt="Event Flyer Kit 01: 8 Canva-Editable Flyer Templates (Feed + Story) preview" loading="lazy"><span class="tag mono">DIGITAL · CANVA-EDITABLE</span></div>
+  <div class="pbody"><h3>Event Flyer Kit 01: 8 Canva-Editable Flyer Templates (Feed + Story)</h3><div class="pp"><b>$24.00</b><span class="mono">DIGITAL DOWNLOAD · IN STOCK</span></div>
+  <p>Your event deserves a flyer that stops the scroll. Event Flyer Kit 01 gives you 8 bold, ready-to-edit looks for DJ nights, venue takeovers, vendor markets and paint-and-sip / art nights: giant motion type, field-log label cards, checkered streetwear market, glass-and-crystal, giant numbers, black + gold monogram, dark neon and a colorful paint splash. Each one comes in Instagram feed (1080x1350) and story (1080x1920) sizes. That&#x27;s 16 designs, plus 64 PNG elements (textures, frames, info cards, badges and label chips) to remix. Import into Canva, drop in your photos, type your details and post. Made by creatives who build community events, for the people who throw them.</p>
+  <a class="pill fill" href="https://www.movinartistsmarket.com/product-page/event-flyer-kit-01-8-canva-editable-flyer-templates-feed-story" target="_blank" rel="noopener">VIEW / BUY</a></div></article><article class="pcard dig bundle">
+  <div class="pimg"><img src="https://static.wixstatic.com/media/f8fae8_048a1a1546be473aab1d3a49acc2b5e0~mv2.png/v1/fit/w_1200,h_1200,q_85,enc_auto/x.webp" alt="Complete Canva Template Bundle preview" loading="lazy"><span class="tag mono">BUNDLE · CANVA-EDITABLE</span></div>
+  <div class="pbody"><h3>Complete Canva Template Bundle</h3><div class="pp"><b>$35.00</b><span class="mono">DIGITAL DOWNLOAD · IN STOCK</span></div>
+  <p>Everything we make, in one money-saving bundle. Get all four packs and have a flyer ready for any business, any listing and any season.</p><p class="inc mono"><b>INCLUDED</b> All 4 packs - Real Estate &amp; Open House (10 flyers), Business Flyers (42 flyers), Holiday &amp; Seasonal (16 flyers) and the Design Elements Kit (86 elements with transparent PNGs and SVGs). That&#x27;s 68 flyers plus 86 elements, with previews and contact sheets.</p>
+  <a class="pill fill" href="https://www.movinartistsmarket.com/product-page/complete-canva-template-bundle" target="_blank" rel="noopener">VIEW / BUY</a></div></article><article class="pcard dig bundle">
+  <div class="pimg"><img src="https://static.wixstatic.com/media/f8fae8_3871130d0dc74d678c3f0732c1c12bfc~mv2.png/v1/fit/w_1200,h_1200,q_85,enc_auto/x.webp" alt="Technical Line-Art Complete Bundle preview" loading="lazy"><span class="tag mono">BUNDLE · CANVA-EDITABLE</span></div>
+  <div class="pbody"><h3>Technical Line-Art Complete Bundle</h3><div class="pp"><b>$35.00</b><span class="mono">DIGITAL DOWNLOAD · IN STOCK</span></div>
+  <p>The whole technical line-art collection in one money-saving bundle. Everything you need to build sharp, modern designs for any project.</p><p class="inc mono"><b>INCLUDED</b> All 4 packs - Wireframe Geometry &amp; 3D Solids (55 elements), Graphs &amp; Patterns (70 elements), Labels, Tags, Barcodes &amp; Stamps (101 elements) and Technical Grid Layout Templates (10 layouts). That&#x27;s 226 elements plus 10 layouts.</p>
+  <a class="pill fill" href="https://www.movinartistsmarket.com/product-page/technical-line-art-complete-bundle" target="_blank" rel="noopener">VIEW / BUY</a></div></article><article class="pcard dig">
+  <div class="pimg"><img src="https://static.wixstatic.com/media/f8fae8_724169cf7e9d44d3b23ebb057da26103~mv2.png/v1/fit/w_1200,h_1200,q_85,enc_auto/x.webp" alt="Business Flyer Canva Template Pack preview" loading="lazy"><span class="tag mono">DIGITAL · CANVA-EDITABLE</span></div>
+  <div class="pbody"><h3>Business Flyer Canva Template Pack</h3><div class="pp"><b>$12.00</b><span class="mono">DIGITAL DOWNLOAD · IN STOCK</span></div>
+  <p>Whatever you run, there&#x27;s a flyer here for you. Bold, eye-catching designs that help small businesses get noticed, fill seats and bring customers through the door.</p><p class="inc mono"><b>INCLUDED</b> 42 editable flyers for 21 business types - DJ/nightlife, restaurant/bar, sneakers, barber, beauty, jewelry, pop-up market, fitness, cafe, food truck, nails, auto detailing, tattoo, photography, cleaning, landscaping, church/community, school, boutique, tech, wellness and bakery - plus a how-to slide, PNG previews and a contact sheet.</p>
+  <a class="pill fill" href="https://www.movinartistsmarket.com/product-page/business-flyer-canva-template-pack" target="_blank" rel="noopener">VIEW / BUY</a></div></article><article class="pcard dig">
+  <div class="pimg"><img src="https://static.wixstatic.com/media/f8fae8_14d7435c26304c329605efb712bf0efc~mv2.png/v1/fit/w_1200,h_1200,q_85,enc_auto/x.webp" alt="Real Estate &amp; Open House Canva Template Pack preview" loading="lazy"><span class="tag mono">DIGITAL · CANVA-EDITABLE</span></div>
+  <div class="pbody"><h3>Real Estate &amp; Open House Canva Template Pack</h3><div class="pp"><b>$12.00</b><span class="mono">DIGITAL DOWNLOAD · IN STOCK</span></div>
+  <p>Make every listing look like a showstopper. These polished, ready-to-go flyers help agents and homeowners promote open houses, new listings and sold celebrations in minutes.</p><p class="inc mono"><b>INCLUDED</b> 10 editable flyers (open house, just listed, sold and meet-your-agent designs), a how-to slide, PNG previews of every page and a contact sheet.</p>
+  <a class="pill fill" href="https://www.movinartistsmarket.com/product-page/real-estate-open-house-canva-template-pack" target="_blank" rel="noopener">VIEW / BUY</a></div></article><article class="pcard dig">
+  <div class="pimg"><img src="https://static.wixstatic.com/media/f8fae8_81c590c31a5f44ba9d4a2517ce4cda97~mv2.png/v1/fit/w_1200,h_1200,q_85,enc_auto/x.webp" alt="Holiday &amp; Seasonal Canva Flyer Pack preview" loading="lazy"><span class="tag mono">DIGITAL · CANVA-EDITABLE</span></div>
+  <div class="pbody"><h3>Holiday &amp; Seasonal Canva Flyer Pack</h3><div class="pp"><b>$12.00</b><span class="mono">DIGITAL DOWNLOAD · IN STOCK</span></div>
+  <p>Be ready for every celebration all year long. Festive, customizable flyers so your sales, events and specials always feel right on time.</p><p class="inc mono"><b>INCLUDED</b> 16 customizable holiday flyers from New Year&#x27;s through Kwanzaa, including Black Friday and Small Business Saturday, plus a how-to slide, PNG previews and a contact sheet.</p>
+  <a class="pill fill" href="https://www.movinartistsmarket.com/product-page/holiday-seasonal-canva-flyer-pack" target="_blank" rel="noopener">VIEW / BUY</a></div></article><article class="pcard dig">
+  <div class="pimg"><img src="https://static.wixstatic.com/media/f8fae8_4819f60da3af4dc697670f466f95a51e~mv2.png/v1/fit/w_1200,h_1200,q_85,enc_auto/x.webp" alt="Canva Design Elements Kit preview" loading="lazy"><span class="tag mono">DIGITAL · CANVA-EDITABLE</span></div>
+  <div class="pbody"><h3>Canva Design Elements Kit</h3><div class="pp"><b>$12.00</b><span class="mono">DIGITAL DOWNLOAD · IN STOCK</span></div>
+  <p>The finishing touches that make a design pop. Drag, drop and done - give any flyer or post a professional look in seconds.</p><p class="inc mono"><b>INCLUDED</b> 86 drag-and-drop elements - badges, date pills, frames, ribbons, price tags, icons and ornaments - as an editable .pptx plus transparent PNGs and SVGs.</p>
+  <a class="pill fill" href="https://www.movinartistsmarket.com/product-page/canva-design-elements-kit" target="_blank" rel="noopener">VIEW / BUY</a></div></article><article class="pcard dig">
+  <div class="pimg"><img src="https://static.wixstatic.com/media/f8fae8_2b5f9b547b5f4170a352177e00478b25~mv2.png/v1/fit/w_1200,h_1200,q_85,enc_auto/x.webp" alt="Technical Grid Layout Canva Templates preview" loading="lazy"><span class="tag mono">DIGITAL · CANVA-EDITABLE</span></div>
+  <div class="pbody"><h3>Technical Grid Layout Canva Templates</h3><div class="pp"><b>$12.00</b><span class="mono">DIGITAL DOWNLOAD · IN STOCK</span></div>
+  <p>Bold Swiss-grid design without starting from scratch. Just swap in your text and photos for a polished, gallery-worthy look.</p><p class="inc mono"><b>INCLUDED</b> 10 editable Swiss-grid layouts - poster, event flyer, ticket, ID badge, product drop spec sheet, lineup, announcement, countdown and grid index - in 4:5 (1080 x 1350) and 1:1 (1080 x 1080) formats, with how-to pages.</p>
+  <a class="pill fill" href="https://www.movinartistsmarket.com/product-page/technical-grid-layout-canva-templates" target="_blank" rel="noopener">VIEW / BUY</a></div></article><article class="pcard dig">
+  <div class="pimg"><img src="https://static.wixstatic.com/media/f8fae8_095affdfd60b48deafd46726ba0e76c5~mv2.png/v1/fit/w_1200,h_1200,q_85,enc_auto/x.webp" alt="Wireframe Geometry &amp; 3D Solids Element Pack preview" loading="lazy"><span class="tag mono">DIGITAL · CANVA-EDITABLE</span></div>
+  <div class="pbody"><h3>Wireframe Geometry &amp; 3D Solids Element Pack</h3><div class="pp"><b>$12.00</b><span class="mono">DIGITAL DOWNLOAD · IN STOCK</span></div>
+  <p>Bring a sharp, technical edge to your designs. These precise wireframe shapes give flyers, merch and social posts that clean, futuristic blueprint look.</p><p class="inc mono"><b>INCLUDED</b> 55 precise line-art 3D shapes - cones, cubes, torus, globe, Mobius strip, polyhedra, isometric grids and more - each as SVG plus transparent PNG in black and white versions, plus an editable .pptx.</p>
+  <a class="pill fill" href="https://www.movinartistsmarket.com/product-page/wireframe-geometry-3d-solids-element-pack" target="_blank" rel="noopener">VIEW / BUY</a></div></article><article class="pcard dig">
+  <div class="pimg"><img src="https://static.wixstatic.com/media/f8fae8_52d8dfea096b4c5384d40cb6242704fe~mv2.png/v1/fit/w_1200,h_1200,q_85,enc_auto/x.webp" alt="Graphs &amp; Patterns Line-Art Element Pack preview" loading="lazy"><span class="tag mono">DIGITAL · CANVA-EDITABLE</span></div>
+  <div class="pbody"><h3>Graphs &amp; Patterns Line-Art Element Pack</h3><div class="pp"><b>$12.00</b><span class="mono">DIGITAL DOWNLOAD · IN STOCK</span></div>
+  <p>Add rhythm and texture to anything you make. Crisp, mathematical line art that turns a plain layout into something that feels designed.</p><p class="inc mono"><b>INCLUDED</b> 70 line-art elements - waves, curves, charts, spirals, contours, grids and tessellations - as SVG plus transparent PNG, plus an editable .pptx.</p>
+  <a class="pill fill" href="https://www.movinartistsmarket.com/product-page/graphs-patterns-line-art-element-pack" target="_blank" rel="noopener">VIEW / BUY</a></div></article><article class="pcard dig">
+  <div class="pimg"><img src="https://static.wixstatic.com/media/f8fae8_9795d37ed4b54abbba98da957b050ab2~mv2.png/v1/fit/w_1200,h_1200,q_85,enc_auto/x.webp" alt="Labels, Tags, Barcodes &amp; Stamps Element Pack preview" loading="lazy"><span class="tag mono">DIGITAL · CANVA-EDITABLE</span></div>
+  <div class="pbody"><h3>Labels, Tags, Barcodes &amp; Stamps Element Pack</h3><div class="pp"><b>$12.00</b><span class="mono">DIGITAL DOWNLOAD · IN STOCK</span></div>
+  <p>Give your brand that streetwear, industrial, spec-sheet feel. Drop these technical labels onto flyers, packaging and posts for instant detail.</p><p class="inc mono"><b>INCLUDED</b> 101 technical label elements - tags, code chips, barcodes, QR blocks, stamps, crop/registration marks, rulers, ticket stubs and spec tables - as SVG plus transparent PNG, plus an editable tags page in the .pptx. Sample barcodes and QR codes are placeholders only.</p>
+  <a class="pill fill" href="https://www.movinartistsmarket.com/product-page/labels-tags-barcodes-stamps-element-pack" target="_blank" rel="noopener">VIEW / BUY</a></div></article></div>
+<p class="mono note">LICENSE: PERSONAL AND COMMERCIAL USE FOR YOUR OWN BUSINESS (PRINT, SOCIAL MEDIA, ADS, SIGNAGE). FINISHED DESIGNS WITH YOUR OWN TEXT AND PHOTOS ARE YOURS TO PUBLISH. FONTS: FREE GOOGLE FONTS AVAILABLE INSIDE CANVA.</p>
+</section>
+<section id="spotlight" class="fs"><header class="fh"><p class="mono k">TRANSMISSION 08 // ON THE GRID</p><h2 class="xt">FEATURED <span>SPOTLIGHT</span></h2></header>
+<div class="spot"><figure><img src="https://static.wixstatic.com/media/ab5424_2522cc7c69d74b82b21531877209be99~mv2.jpg/v1/fill/w_1200,h_675,q_88,enc_auto/x.webp" alt="Tricknotic Productions black snapback" loading="lazy"><figcaption class="mono">01 / 05</figcaption></figure><figure><img src="https://static.wixstatic.com/media/ab5424_27f051fadfdf4291add9b721e40c915e~mv2.png/v1/fill/w_1200,h_675,q_88,enc_auto/x.webp" alt="&#x27;Build the Network&#x27; M/A hoodie" loading="lazy"><figcaption class="mono">02 / 05</figcaption></figure><figure><img src="https://static.wixstatic.com/media/ab5424_c77feafee31f48339d6412f28799ede3~mv2.jpeg/v1/fill/w_1200,h_675,q_88,enc_auto/x.webp" alt="&#x27;Times&#x27; anchor can art" loading="lazy"><figcaption class="mono">03 / 05</figcaption></figure><figure><img src="https://static.wixstatic.com/media/ab5424_9b65ad3de05f4d9baa0289e890130434~mv2.png/v1/fill/w_1200,h_675,q_88,enc_auto/x.webp" alt="KP crystal monogram" loading="lazy"><figcaption class="mono">04 / 05</figcaption></figure><figure><img src="https://static.wixstatic.com/media/ab5424_686891b082f7446e87fcc1dd03d1abdc~mv2.png/v1/fill/w_1200,h_675,q_88,enc_auto/x.webp" alt="&#x27;What Moves You?&#x27; chrome M badge" loading="lazy"><figcaption class="mono">05 / 05</figcaption></figure></div></section>
+<section id="pricing" class="fs"><header class="fh"><p class="mono k">TRANSMISSION 09 // CHOOSE YOUR PRICING PLAN</p><h2 class="xt">INVEST IN <span>YOUR GROWTH</span></h2><p class=sub>Every subscription goes directly back into your promotion. We don&#x27;t just host you; we elevate you across the global digital ecosystem.</p></header>
+<div class="tiers full3"><article class="tier full"><p class="mono">TIER 01 · BILLED EVERY MONTH</p><h3>SIGNAL NODE</h3>
+  <div class="price">$175<small>/MO</small></div><p class="pd">Your brand deserves more than a post. Every month, we make content for your business or art, post it across our network, and put paid ad money behind it so it reaches people beyond your followers.</p>
+  <ul><li>2 15–30 second promos or ad, plus one highlight reel/edit</li><li>Posts to our I.g.s,TikTok, &amp; Y.T. captions w/signature style</li><li>paid boost to put you in front of new local audiences</li><li>story posts spread out across the month if an event</li></ul>
+  <div class="tb"><a class="pill fill big" href="https://www.movinartistsmarket.com/pricing-plans/plans-pricing" target="_blank" rel="noopener">BUY NOW</a><a class="pill line" href="#" data-mock>ADD TO CART</a></div></article><article class="tier full hot"><p class="mono">TIER 02 · BILLED EVERY MONTH</p><h3>CARRIER BOOST</h3>
+  <div class="price">$350<small>/MO</small></div><p class="pd">Local brands, artists, and entrepreneurs across Rhode Island and New England, all on one grid. Your brand deserves a network that benefits everyone involved. Venues, Businesses, promos, or edits.</p>
+  <ul><li>4 pieces of content a month highlights</li><li>A higher paid boost across our social media platforms</li><li>story posts spread throughout all of our platforms</li><li>a highlight on www.movinartists.com</li><li>previous tier benefits</li></ul>
+  <div class="tb"><a class="pill fill big" href="https://www.movinartistsmarket.com/pricing-plans/plans-pricing" target="_blank" rel="noopener">BUY NOW</a><a class="pill line" href="#" data-mock>ADD TO CART</a></div></article><article class="tier full"><p class="mono">TIER 03 · BILLED EVERY MONTH</p><h3>SHRINE ACTIVATION</h3>
+  <div class="price">$600<small>/MO</small></div><p class="pd">Best for events, launches, &amp; brands ready to lead their scene. Content made for you, posting across our network, real ad spend behind it, and a community of creators who share and support each other.</p>
+  <ul><li>8 pieces of content</li><li>One shoot day or event recap each month</li><li>A custom logo intro or end card for your brand</li><li>Priority posting placement</li><li>A monthly report on views, reach, and growth</li><li>Story posts planned out throughout the month</li><li>highlight space on IG @movinartistsnetwork</li></ul>
+  <div class="tb"><a class="pill fill big" href="https://www.movinartistsmarket.com/pricing-plans/plans-pricing" target="_blank" rel="noopener">BUY NOW</a><a class="pill line" href="#" data-mock>ADD TO CART</a></div></article></div>
+<p class="mono note">FIND ONE THAT WORKS FOR YOU. BILLED MONTHLY FROM PURCHASE UNTIL CANCELLED · NO SETUP FEES.</p></section>
+<section id="creators" class="fs"><header class="fh"><p class="mono k">TRANSMISSION 10 // SELL IT. PERFORM IT. OFFER IT.</p><h2 class="xt">WE PROMOTE <span>YOU</span></h2></header>
+<div class="cgrid"><article class="ccard"><p class="mono k">01 // PHYSICAL AND DIGITAL</p><h3 class="xt">Products</h3><p>Physical and digital creations crafted for the visionary collector. We manage your spotlight and automate your promotional cycle while you focus on the vision.</p><a class="pill line" href="#ideas">SIGN UP &gt;&gt;</a></article><article class="ccard"><p class="mono k">02 // PERFORM IT OR PRODUCE IT</p><h3 class="xt">Music</h3><p>Whether you perform it or produce it, every track receives built-in advertising. We ensure your sound reaches the ears that matter in a crowded digital landscape.</p><a class="pill line" href="#ideas">SIGN UP &gt;&gt;</a></article><article class="ccard"><p class="mono k">03 // YOU PROVIDE WE PROMOTE</p><h3 class="xt">Services</h3><p>Offer your professional expertise to an ecosystem dedicated to shared growth. From production to design, we put your services center stage for the collective.</p><a class="pill line" href="#ideas">SIGN UP &gt;&gt;</a></article></div></section>
+<section id="system" class="fs"><header class="fh"><p class="mono k">TRANSMISSION 11 // HOW IT WORKS</p><h2 class="xt">THE SYSTEM FOR <span>YOUR GROWTH</span></h2></header>
+<ol class="steps"><li><span class="n mono">STEP 01</span><h3>Join the Movement</h3><p>Sign up and choose your creator tier. Whether you sell products, perform music, or provide creative services, you gain immediate access to our promotion ecosystem.</p></li><li><span class="n mono">STEP 02</span><h3>Upload Your Talent</h3><p>Showcase your work through our SEO-optimized search. From high-quality audio files to artisanal products, every listing is designed for professional visibility.</p></li><li><span class="n mono">STEP 03</span><h3>Receive Built-In Promotion</h3><p>We put your work in front of the right eyes. Your membership includes built-in paid advertising and social media exposure across five major platforms.</p></li><li><span class="n mono">STEP 04</span><h3>Grow Through Collaboration</h3><p>Watch your visibility turn into sustainable opportunity. Join a collaborative community that drives shared traffic and exclusive creative event access.</p></li></ol>
+<div class="builtin"><p class="mono k">BUILT IN PROMOTIONS</p><p class="lede">We don&#x27;t just host your talent—we accelerate it. Your subscription directly funds paid advertising, social media features, and collaborative growth strategies that ensure you&#x27;re never just another listing.</p></div></section>
+<section id="ideas" class="fs"><header class="fh"><p class="mono k">TRANSMISSION 12 // BRING YOUR IDEAS</p><h2 class="xt">BE PART OF <span>THE BLUEPRINT</span></h2><p class=sub>We believe in a creative ecosystem where your voice shapes our platform. Whether it’s a new feature, a community event, or a collaborative vision that drives visibility for all, we invite you to be part of the blueprint. Submit your concept and let’s expand the movement together.</p></header>
+<form class="idea mono" onsubmit="return false"><label>FIRST NAME*<input required></label><label>LAST NAME<input></label>
+<label>CREATOR TYPE*<select><option>PRODUCTS</option><option>MUSIC</option><option>SERVICE</option></select></label><label>EMAIL*<input type="email" required></label>
+<label class="w">MESSAGE*<textarea rows="4"></textarea></label><label class="w">LINK / SOCIAL MEDIA<input></label>
+<button class="pill fill big" type="button" title="Mockup — not connected">SUBMIT</button><span class="mock">MOCKUP · NOT CONNECTED</span></form></section>
+<section id="events" class="fs"><header class="fh"><p class="mono k">TRANSMISSION 13 // EVENTS</p><h2 class="xt">UPCOMING <span>EVENTS</span></h2></header>
+<div class="noev"><p class="xt">NO EVENTS AT THE MOMENT</p><p class="mono">CHECK BACK OR FOLLOW <a href="https://www.instagram.com/movinartistsnetwork" target="_blank" rel="noopener">@MOVINARTISTSNETWORK</a> FOR THE NEXT DROP.</p></div>
+<p class="mono k igk">FOLLOW US ON INSTAGRAM · #squad4ourlife · @movinartistsnetwork</p>
+<div class="ig"><a href="https://www.instagram.com/movinartistsnetwork" target="_blank" rel="noopener"><img src="assets/ig/post1.jpg" alt="" loading="lazy"><span>@dr.bombay_icecream- would love to join the team</span></a><a href="https://www.instagram.com/movinartistsnetwork" target="_blank" rel="noopener"><img src="assets/ig/post2.jpg" alt="" loading="lazy"><span>Aura Farming the stage @tricknoticproductions_  lyrically sniping the rest. Tag some peopl</span></a><a href="https://www.instagram.com/movinartistsnetwork" target="_blank" rel="noopener"><img src="assets/ig/post3.jpg" alt="" loading="lazy"><span>Send or tag this to someone that always knows where it’s at😎💨💨💨💨💨💨💨💨💨💨💨💨💨💨💨💨💨💨</span></a><a href="https://www.instagram.com/movinartistsnetwork" target="_blank" rel="noopener"><img src="assets/ig/post4.jpg" alt="" loading="lazy"><span>◬ Synergy to music</span></a><a href="https://www.instagram.com/movinartistsnetwork" target="_blank" rel="noopener"><img src="assets/ig/post5.jpg" alt="" loading="lazy"><span>May the 4th be with you!</span></a><a href="https://www.instagram.com/movinartistsnetwork" target="_blank" rel="noopener"><img src="assets/ig/post6.jpg" alt="" loading="lazy"><span>A sneak peak at a music video I’m redoing from old footage @tricknoticproductions_ </span></a><a href="https://www.instagram.com/movinartistsnetwork" target="_blank" rel="noopener"><img src="assets/ig/post7.jpg" alt="" loading="lazy"><span>Gotta cop a Tricknotic productions Hat💯 Sleek black SnapBack 🤙🏼 </span></a><a href="https://www.instagram.com/movinartistsnetwork" target="_blank" rel="noopener"><img src="assets/ig/post8.jpg" alt="" loading="lazy"><span>What if this became the next Netflix Series?! Would you give it a watch🧐 #netflix #horror </span></a><a href="https://www.instagram.com/movinartistsnetwork" target="_blank" rel="noopener"><img src="assets/ig/post9.jpg" alt="" loading="lazy"><span>🜂Movin’ Artists Market</span></a><a href="https://www.instagram.com/movinartistsnetwork" target="_blank" rel="noopener"><img src="assets/ig/post10.jpg" alt="" loading="lazy"><span>Narragansett casino where events combine fun, games, and unforgettable memories #events #c</span></a></div></section>
+<footer id="connect" class="fs foot">
+ <div class="fl"><img src="assets/chrome-ma-640.png" alt="Movin' Artists Market M/A logo"><p class="xt">MOVIN' ARTISTS<br><span>MARKET</span></p><p class="mono">Elevating the creative economy through strategic promotion and collaborative movement.</p></div>
+ <div class="fc mono"><p class="k">CONTACT // GLOBAL DIGITAL ECOSYSTEM</p>
+  <a class="pill fill big" href="tel:+14012076789">CALL (401) 207-6789</a>
+  <a href="mailto:movinartistsmarket@gmail.com?subject=Tune%20Me%20In">MOVINARTISTSMARKET@GMAIL.COM</a>
+  <a href="https://www.instagram.com/movinartistsnetwork" target="_blank" rel="noopener">IG @MOVINARTISTSNETWORK</a>
+  <a href="https://www.instagram.com/movinartistsmarket/" target="_blank" rel="noopener">MESSAGE US @MOVINARTISTSMARKET</a><span>#squad4ourlife</span></div>
+ <nav class="fn mono"><p class="k">MENU</p><a href="#top">HOME</a><a href="#pricing">MARKET / PLANS</a><a href="#shop">FLYER PRODUCTS</a><a href="#events">EVENTS</a><a href="http://www.movinartists.com/" target="_blank" rel="noopener">MOVIN' ARTISTS ↗</a><a href="https://www.movinartistsmarket.com/blank-1" target="_blank" rel="noopener">MEDICI APP (MEMBERS) ↗</a><a href="#" data-mock>LOG IN · CART</a></nav>
+ <p class="copy mono">© 2026 Movin’ Artists Market. Build opportunity. <span class="runes">ᛃᛟᛁᚾ ᚢᛊ</span></p>
+</footer>
+</main>
+<!--/FULL-->
+
+<script src="assets/inline-assets.js"></script>
+<script type="module" src="assets/main.js"></script>
+</body>
+</html>
