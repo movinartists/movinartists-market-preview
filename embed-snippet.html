@@ -1,0 +1,17 @@
+<!--
+  Wix Studio → new hidden page (not the homepage, not in the menu) → add an HTML embed.
+  Replace PREVIEW_URL with the GitHub Pages (or other static host) URL once it is live.
+  Do not paste this into the live homepage.
+-->
+<style>
+  html, body, #mam-preview-wrap { margin: 0; padding: 0; width: 100%; height: 100%; background: #050506; overflow: hidden; }
+  #mam-preview-wrap iframe { border: 0; width: 100%; height: 100%; display: block; background: #050506; }
+</style>
+<div id="mam-preview-wrap">
+  <iframe
+    src="PREVIEW_URL"
+    title="New Movin' Artists Market design preview"
+    allow="autoplay; fullscreen"
+    loading="eager"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
