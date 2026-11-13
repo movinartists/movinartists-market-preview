@@ -2,6 +2,18 @@
 
 The Wix REST APIs can list existing Studio pages and can set SEO tags on a page that already exists. **They cannot create a new Studio/Editor page, cannot add an HTML iframe or custom element to a page, and cannot hide a page from the menu.** Custom Embeds would inject code into existing live pages, so that was not used. A site-wide publish was not run.
 
+## GitHub preview URL
+
+A new public repo holds the lean preview:
+
+https://github.com/movinartists/movinartists-market-preview
+
+The preview URL, once GitHub Pages is turned on, will be:
+
+https://movinartists.github.io/movinartists-market-preview/
+
+**Turn Pages on (one setting, no other site is affected):** in the repo, Settings → Pages → Deploy from a branch → Branch `main` → folder `/ (root)` → Save. Wait a minute, then open the URL above. After it loads, that is the `src` already in `embed-snippet.html`.
+
 ## What is already prepared
 
 - Full self-contained mockup (for local preview or a zip upload): `site-full/`
